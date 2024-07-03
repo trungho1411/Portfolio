@@ -31,6 +31,7 @@ const RecentProjects = () => {
 
                             <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>
                                 {des}
+                                {/* {title} */}
                             </p>
                             <div className='flex items-center justify-between mt-7 mb-3'>
                                 <div className='flex items-center'>
