@@ -21,7 +21,7 @@ const Hero = () => {
             <div className='flex justify-center relative my-20 z-10'>
                 <div className='max-w-[89vh] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                     <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                        Dynamic Web with Next.js
+                        Portfolio Web with Next.js
                     </h2>
 
                     <TextGenerateEffect
@@ -30,7 +30,7 @@ const Hero = () => {
                     />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I&apos;m Trung Ho, a Next.js Developer based in Finland
+                        Hi, I&apos;m Trung Ho, a Software Developer based in Finland
                     </p>
 
                     <a href='#about'>
