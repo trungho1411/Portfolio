@@ -67,7 +67,7 @@ export const BentoGridItem = ({
                 backgroundColor: 'linear-gradient(90deg, rgba(28,28,48,1) 32%, rgba(0,212,255,1) 100%)',
             }}
         >
-            <div className={`${id === 6 && 'flex justify-center'} h-full`}>
+            <div className={`${id === 6 && 'flex justify-center'} h-full w-full`}>
                 <div className="w-full h-full absolute">
                     {
                         img && (
