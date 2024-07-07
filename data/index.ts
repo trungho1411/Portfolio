@@ -147,8 +147,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: 'Fullstack development',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+    title: 'Fullstack development - FSO',
+    desc: 'Learning full stack development involves mastering both front-end and back-end technologies to build complete web applications.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
   },
