@@ -1,3 +1,5 @@
+'use client'
+
 import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './3d-pin'
@@ -31,7 +33,6 @@ const RecentProjects = () => {
 
                             <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>
                                 {des}
-                                {/* {title} */}
                             </p>
                             <div className='flex items-center justify-between mt-7 mb-3'>
                                 <div className='flex items-center'>
@@ -46,8 +47,15 @@ const RecentProjects = () => {
                                     ))}
                                 </div>
                                 <div className='flex justify-center items-center'>
-                                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Live Site</p>
-                                    <FaLocationArrow className='ms-3' color='#CBACF9'/>
+                                <a
+                                        href={link}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='flex lg:text-xl md:text-xs text-sm text-purple hover:underline'
+                                    >
+                                        Check Live Site
+                                    </a>
+                                    <FaLocationArrow className='ms-3' color='#CBACF9' />
                                 </div>
                             </div>
                         </PinContainer>
